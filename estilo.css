@@ -1,0 +1,41 @@
+/* los estilos para todo el sitio web */
+
+* {
+    background-color: #d3ffc4;
+}
+
+h1, h2, h3, p, ol, ul {
+    color: darkslategrey;
+    font-family: Georgia, Garamond, Impact, monospace;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size:  25px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+p, ol, ul {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+p {
+    text-align: justify;
+}
+
+div {
+    width: 50%;
+}

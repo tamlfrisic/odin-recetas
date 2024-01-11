@@ -2,11 +2,19 @@
 
 * {
     background-color: #d3ffc4;
+
+}
+
+h1, h2, h3 {
+    text-align: left;
+    text-shadow: rgb(128, 128, 128);
+    text-decoration: wavy;
+
 }
 
 h1, h2, h3, p, ol, ul {
     color: darkslategrey;
-    font-family: Georgia, Garamond, Impact, monospace;
+    font-family: Ubuntu, Georgia, Garamond, Impact, monospace;
     font-weight: 900;
 }
 
@@ -38,4 +46,8 @@ p {
 
 div {
     width: 50%;
+}
+
+.heavy {
+    font-weight: 800;
 }

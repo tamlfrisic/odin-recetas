@@ -1,21 +1,29 @@
 /* los estilos para todo el sitio web */
 
-* {
-    background-color: #d3ffc4;
+body {
+    color: darkslategrey;
+    font-family: Ubuntu, Georgia, Garamond, Impact, monospace;
+    background-color:  #292c284e;
+}
 
+div {
+    width: 1000px;
+    /*border: 2px solid darkslategray;*/
+    background-color: darkslategrey;
+    margin: 16px auto;
+    padding: 8px;
 }
 
 h1, h2, h3 {
-    text-align: left;
+    text-align: center;
     text-shadow: rgb(128, 128, 128);
     text-decoration: wavy;
-
-}
-
-h1, h2, h3, p, ol, ul {
-    color: darkslategrey;
-    font-family: Ubuntu, Georgia, Garamond, Impact, monospace;
     font-weight: 900;
+    padding: 8px;
+    background-color:  #d3ffc4;
+    margin-bottom: 8px;
+    margin-top: 0;
+
 }
 
 h1 {
@@ -38,14 +46,17 @@ img {
 p, ol, ul {
     font-weight: 300;
     font-size: 17px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    background-color:  #d3ffc4;
 }
 
 p {
     text-align: justify;
-}
-
-div {
-    width: 50%;
 }
 
 .heavy {
